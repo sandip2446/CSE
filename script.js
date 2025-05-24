@@ -1,59 +1,59 @@
 // Course data structure
 const courseData = {
     "1st Semester (Year 1)": [
-        { code: "COL100", title: "Introduction to Computer Science", ltp: "3-0-2", credits: 4, type: "DC", resources: "The C Programming Language (Brian W. Kernighan)|./1ST SHEM/The C Programming Language (Brian W. Kernighan etc.) (Z-Library).pdf; Computer Science An Overview (Glenn Brookshear)|./1ST SHEM/Computer Science An Overview (Glenn Brookshear) (Z-Library).pdf; Python Programming An Introduction to Computer Science (John M. Zelle)|./1ST SHEM/Python Programming An Introduction to Computer Science (John M. Zelle) (Z-Library).pdf" },
-        { code: "CYL110", title: "Physical Chemistry: Concepts and Applications", ltp: "3-1-0", credits: 4, type: "BS", resources: "Atkins physical chemistry 11th edition 2019 (Atkins Peter)|./1ST SHEM/Atkins physical chemistry 11th edition 2019 (Atkins Peter) (Z-Library).pdf" },
-        { code: "CYP100", title: "Chemistry Laboratory", ltp: "0-0-4", credits: 2, type: "BS", resources: "Chemistry The Central Science Value Pack|1ST SHEM/Chemistry The Central Science Value Pack (Includes Virtual ChemLab General Chemistry, Student Lab Manual  Workbook, V2.5 ... ( etc.) (Z-Library).mobi" },
-        { code: "MAL111", title: "Introduction to Analysis and Differential Equations", ltp: "3-1-0", credits: 4, type: "BS", resources: "Thomas Calculus 13th Edition (George B. Thomas)|./1ST SHEM/Thomas Calculus 13th Edition (George B. Thomas) (Z-Library).pdf" },
-        { code: "AML110", title: "Engineering Mechanics", ltp: "3-0-2", credits: 4, type: "EAS", resources: "Engineering Mechanics Dynamics 9th Edition (Meriam, Kraige, Bolton)|./1ST SHEM/Engineering Mechanics Dynamics 9th Edition (Meriam, Kraige, Bolton) (Z-Library).pdf" },
+        { code: "COL100", title: "Introduction to Computer Science", ltp: "3-0-2", credits: 4, type: "DC", resources: "The C Programming Language (Brian W. Kernighan)|The C Programming Language (Brian W. Kernighan etc.) (Z-Library).pdf; Computer Science An Overview (Glenn Brookshear)|Computer Science An Overview (Glenn Brookshear) (Z-Library).pdf; Python Programming An Introduction to Computer Science (John M. Zelle)|Python Programming An Introduction to Computer Science (John M. Zelle) (Z-Library).pdf" },
+        { code: "CYL110", title: "Physical Chemistry: Concepts and Applications", ltp: "3-1-0", credits: 4, type: "BS", resources: "Atkins physical chemistry 11th edition 2019 (Atkins Peter)|Atkins physical chemistry 11th edition 2019 (Atkins Peter) (Z-Library).pdf" },
+        { code: "CYP100", title: "Chemistry Laboratory", ltp: "0-0-4", credits: 2, type: "BS", resources: "Chemistry The Central Science Value Pack|Chemistry The Central Science Value Pack (Includes Virtual ChemLab General Chemistry, Student Lab Manual  Workbook, V2.5 ... ( etc.) (Z-Library).mobi" },
+        { code: "MAL111", title: "Introduction to Analysis and Differential Equations", ltp: "3-1-0", credits: 4, type: "BS", resources: "Thomas Calculus 13th Edition (George B. Thomas)|Thomas Calculus 13th Edition (George B. Thomas) (Z-Library).pdf" },
+        { code: "AML110", title: "Engineering Mechanics", ltp: "3-0-2", credits: 4, type: "EAS", resources: "Engineering Mechanics Dynamics 9th Edition (Meriam, Kraige, Bolton)|Engineering Mechanics Dynamics 9th Edition (Meriam, Kraige, Bolton) (Z-Library).pdf" },
         { code: "HUN100", title: "Introduction to Humanities & Social Sciences", ltp: "2-0-0", credits: 2, type: "HSS", resources: "Course notes|Course notes" }
     ],
     "2nd Semester (Year 1)": [
-        { code: "COL106", title: "Data Structures & Algorithms", ltp: "3-0-4", credits: 5, type: "DC", resources: "INTRODUCTION TO ALGORITHMS THIRD EDITION|./4th shem/INTRODUCTION TO ALGORITHMS THIRD EDITION (THOMAS, Cormen, Thomas H., Leiserson etc.) (Z-Library).pdf" },
-        { code: "MAL124", title: "Introduction to Algebra and Matrix Analysis", ltp: "3-1-0", credits: 4, type: "BS", resources: "Linear Algebra and Its Applications|./2nd shem/Linear Algebra and Its Applications, 3rd edition (Gilbert Strang) (Z-Library).pdf" },
-        { code: "PHL110", title: "Fields and Waves", ltp: "3-1-0", credits: 4, type: "BS", resources: "Fundamentals of Physics|./2nd shem/Fundamentals of Physics (David Halliday, Robert Resnick, Jearl Walker) (Z-Library).pdf" },
+        { code: "COL106", title: "Data Structures & Algorithms", ltp: "3-0-4", credits: 5, type: "DC", resources: "INTRODUCTION TO ALGORITHMS THIRD EDITION|INTRODUCTION TO ALGORITHMS THIRD EDITION (THOMAS, Cormen, Thomas H., Leiserson etc.) (Z-Library).pdf" },
+        { code: "MAL124", title: "Introduction to Algebra and Matrix Analysis", ltp: "3-1-0", credits: 4, type: "BS", resources: "Linear Algebra and Its Applications|Linear Algebra and Its Applications, 3rd edition (Gilbert Strang) (Z-Library).pdf" },
+        { code: "PHL110", title: "Fields and Waves", ltp: "3-1-0", credits: 4, type: "BS", resources: "Fundamentals of Physics|Fundamentals of Physics (David Halliday, Robert Resnick, Jearl Walker) (Z-Library).pdf" },
         { code: "PHP100", title: "Physics Laboratory", ltp: "0-0-4", credits: 2, type: "BS", resources: "Course notes|Course notes" },
-        { code: "EEL101", title: "Fundamentals of Electrical Engineering", ltp: "3-0-2", credits: 4, type: "EAS", resources: "Basic Electrical Engineering|./2nd shem/Basic Electrical Engineering, 3rd Edition (D. P. Kothari, I. J. Nagrath) (Z-Library).pdf" },
+        { code: "EEL101", title: "Fundamentals of Electrical Engineering", ltp: "3-0-2", credits: 4, type: "EAS", resources: "Basic Electrical Engineering|Basic Electrical Engineering, 3rd Edition (D. P. Kothari, I. J. Nagrath) (Z-Library).pdf" },
         { code: "MEL110", title: "Graphic Science", ltp: "2-0-4", credits: 4, type: "EAS", resources: "Course notes|Course notes" }
     ],
     "3rd Semester (Year 2)": [
-        { code: "COL202", title: "Discrete Mathematical Structures", ltp: "3-1-0", credits: 4, type: "DC", resources: "Discrete Mathematics and Its Applications|./3rd shemister/Discrete Mathematics and Its Applications, 8th Edition (Kenneth H. Rosen) (Z-Library).pdf" },
-        { code: "COL215", title: "Digital Logic & System Design", ltp: "3-0-4", credits: 5, type: "DC", resources: "Digital Design Global Edition|./3rd shemister/Digital Design Global Edition (Michael Ciletti M. Morris Mano) (Z-Library).pdf" },
-        { code: "MEL120", title: "Manufacturing Practices", ltp: "2-0-4", credits: 4, type: "EAS", resources: "Manufacturing Processes for Engineering Materials|./3rd shemister/Manufacturing Processes for Engineering Materials (Serope Kalpakjian and Steven R. Schmid) (Z-Library).pdf" },
-        { code: "PHL120", title: "Physics of Materials", ltp: "3-1-0", credits: 4, type: "BS", resources: "Introduction To Solid State Physics|3rd shemister/Introduction To Solid State Physics 8th edition (Charles Kittel) (Z-Library).pdf" },
+        { code: "COL202", title: "Discrete Mathematical Structures", ltp: "3-1-0", credits: 4, type: "DC", resources: "Discrete Mathematics and Its Applications|Discrete Mathematics and Its Applications, 8th Edition (Kenneth H. Rosen) (Z-Library).pdf" },
+        { code: "COL215", title: "Digital Logic & System Design", ltp: "3-0-4", credits: 5, type: "DC", resources: "Digital Design Global Edition|Digital Design Global Edition (Michael Ciletti M. Morris Mano) (Z-Library).pdf" },
+        { code: "MEL120", title: "Manufacturing Practices", ltp: "2-0-4", credits: 4, type: "EAS", resources: "Manufacturing Processes for Engineering Materials|Manufacturing Processes for Engineering Materials (Serope Kalpakjian and Steven R. Schmid) (Z-Library).pdf" },
+        { code: "PHL120", title: "Physics of Materials", ltp: "3-1-0", credits: 4, type: "BS", resources: "Introduction To Solid State Physics|Introduction To Solid State Physics 8th edition (Charles Kittel) (Z-Library).pdf" },
         { code: "HSS Elective", title: "Humanities Elective", ltp: "3-0-0", credits: 3, type: "HSS", resources: "Course notes|Course notes" }
     ],
     "4th Semester (Year 2)": [
-        { code: "COL226", title: "Programming Languages", ltp: "3-0-4", credits: 5, type: "DC", resources: "Programming Language Pragmatics|./4th shem/Programming Language Pragmatics (Michael L. Scott) (Z-Library).pdf" },
-        { code: "COL216", title: "Computer Architecture", ltp: "3-0-2", credits: 4, type: "DC", resources: "Computer Organization and Architecture|./4th shem/Computer Organization and Architecture, Global Edition (William Stallings) (Z-Library).pdf" },
-        { code: "COL351", title: "Analysis and Design of Algorithms", ltp: "3-1-0", credits: 4, type: "DC", resources: "INTRODUCTION TO ALGORITHMS THIRD EDITION|./4th shem/INTRODUCTION TO ALGORITHMS THIRD EDITION (THOMAS, Cormen, Thomas H., Leiserson etc.) (Z-Library).pdf" },
+        { code: "COL226", title: "Programming Languages", ltp: "3-0-4", credits: 5, type: "DC", resources: "Programming Language Pragmatics|Programming Language Pragmatics (Michael L. Scott) (Z-Library).pdf" },
+        { code: "COL216", title: "Computer Architecture", ltp: "3-0-2", credits: 4, type: "DC", resources: "Computer Organization and Architecture|Computer Organization and Architecture, Global Edition (William Stallings) (Z-Library).pdf" },
+        { code: "COL351", title: "Analysis and Design of Algorithms", ltp: "3-1-0", credits: 4, type: "DC", resources: "INTRODUCTION TO ALGORITHMS THIRD EDITION|INTRODUCTION TO ALGORITHMS THIRD EDITION (THOMAS, Cormen, Thomas H., Leiserson etc.) (Z-Library).pdf" },
         { code: "HSS Elective", title: "Humanities Elective", ltp: "3-0-0", credits: 3, type: "HSS", resources: "Course notes|Course notes" },
-        { code: "MTL106", title: "Probability & Statistics", ltp: "3-0-0", credits: 3, type: "OE", resources: "Probability and statistics|4th shem/Probability and statistics (DeGroot M., Schervish M.) (Z-Library).pdf" }
+        { code: "MTL106", title: "Probability & Statistics", ltp: "3-0-0", credits: 3, type: "OE", resources: "Probability and statistics|Probability and statistics (DeGroot M., Schervish M.) (Z-Library).pdf" }
     ],
     "5th Semester (Year 3)": [
-        { code: "COL331", title: "Operating Systems", ltp: "3-0-4", credits: 5, type: "DC", resources: "Operating System Concepts|./5th shem/Operating System Concepts (Abraham Silberschatz, Peter B. Galvin etc.) (Z-Library).pdf" },
-        { code: "COL362", title: "Introduction to Database Management Systems", ltp: "3-0-2", credits: 4, type: "DC", resources: "Database System Concepts|./5th shem/Database System Concepts (Abraham Silberschatz, Henry Korth, S. Sudarshan) (Z-Library).pdf" },
+        { code: "COL331", title: "Operating Systems", ltp: "3-0-4", credits: 5, type: "DC", resources: "Operating System Concepts|Operating System Concepts (Abraham Silberschatz, Peter B. Galvin etc.) (Z-Library).pdf" },
+        { code: "COL362", title: "Introduction to Database Management Systems", ltp: "3-0-2", credits: 4, type: "DC", resources: "Database System Concepts|Database System Concepts (Abraham Silberschatz, Henry Korth, S. Sudarshan) (Z-Library).pdf" },
         { code: "COP290", title: "Design Practices", ltp: "0-0-6", credits: 3, type: "DC", resources: "Project documentation|Project documentation" },
-        { code: "CSL341", title: "Fundamentals of Machine Learning", ltp: "3-0-2", credits: 4, type: "DE", resources: "Pattern Recognition and Machine Learning|./5th shem/Pattern Recognition and Machine Learning (Christopher M. Bishop) (Z-Library).pdf" },
-        { code: "SIL765", title: "Networks & System Security", ltp: "3-0-2", credits: 4, type: "OE", resources: "Cryptography and Network Security|./5th shem/Cryptography and Network Security Principles and Practice (6th Edition) (William Stallings) (Z-Library).pdf" }
+        { code: "CSL341", title: "Fundamentals of Machine Learning", ltp: "3-0-2", credits: 4, type: "DE", resources: "Pattern Recognition and Machine Learning|Pattern Recognition and Machine Learning (Christopher M. Bishop) (Z-Library).pdf" },
+        { code: "SIL765", title: "Networks & System Security", ltp: "3-0-2", credits: 4, type: "OE", resources: "Cryptography and Network Security|Cryptography and Network Security Principles and Practice (6th Edition) (William Stallings) (Z-Library).pdf" }
     ],
     "6th Semester (Year 3)": [
-        { code: "COL352", title: "Introduction to Automata & Theory of Computation", ltp: "3-0-0", credits: 3, type: "DC", resources: "Introduction to the Theory of Computation|./6th shem/Introduction to the Theory of Computation, 3rd ed. (Michael Sipser) (Z-Library).pdf" },
-        { code: "COL334", title: "Computer Networks", ltp: "3-0-2", credits: 4, type: "DC", resources: "Computer Networking A Top-Down Approach|./6th shem/Computer Networking A Top-Down Approach (James F. Kurose, Keith W. Ross) (Z-Library).pdf" },
-        { code: "CSL740", title: "Software Engineering", ltp: "3-0-2", credits: 4, type: "DE", resources: "Software engineering|./6th shem/Software engineering (Sommerville, Ian) (Z-Library).pdf" },
-        { code: "CSL730", title: "Parallel Programming", ltp: "3-0-2", credits: 4, type: "DE", resources: "Parallel Programming in C with MPI and OpenMP|./6th shem/Parallel Programming in C with MPI and OpenMP (Michael Jay Quinn) (Z-Library).pdf" },
+        { code: "COL352", title: "Introduction to Automata & Theory of Computation", ltp: "3-0-0", credits: 3, type: "DC", resources: "Introduction to the Theory of Computation|Introduction to the Theory of Computation, 3rd ed. (Michael Sipser) (Z-Library).pdf" },
+        { code: "COL334", title: "Computer Networks", ltp: "3-0-2", credits: 4, type: "DC", resources: "Computer Networking A Top-Down Approach|Computer Networking A Top-Down Approach (James F. Kurose, Keith W. Ross) (Z-Library).pdf" },
+        { code: "CSL740", title: "Software Engineering", ltp: "3-0-2", credits: 4, type: "DE", resources: "Software engineering|Software engineering (Sommerville, Ian) (Z-Library).pdf" },
+        { code: "CSL730", title: "Parallel Programming", ltp: "3-0-2", credits: 4, type: "DE", resources: "Parallel Programming in C with MPI and OpenMP|Parallel Programming in C with MPI and OpenMP (Michael Jay Quinn) (Z-Library).pdf" },
         { code: "CSV883", title: "Special Module in Theoretical Computer Science", ltp: "1-0-0", credits: 1, type: "OE", resources: "Course notes|Course notes" }
     ],
     "7th Semester (Year 4)": [
         { code: "COD492", title: "B.Tech. Project Part-I", ltp: "0-0-12", credits: 6, type: "DC", resources: "Project documentation|Project documentation" },
-        { code: "CSL771", title: "Machine Learning", ltp: "3-0-2", credits: 4, type: "DE", resources: "Machine Learning|./7th sem/Machine Learning (Tom M. Mitchell) (Z-Library).pdf" },
-        { code: "CSL759", title: "Cryptography and Computer Security", ltp: "3-0-0", credits: 3, type: "DE", resources: "Cryptography and Network Security|./5th shem/Cryptography and Network Security Principles and Practice (6th Edition) (William Stallings) (Z-Library).pdf" },
+        { code: "CSL771", title: "Machine Learning", ltp: "3-0-2", credits: 4, type: "DE", resources: "Machine Learning|Machine Learning (Tom M. Mitchell) (Z-Library).pdf" },
+        { code: "CSL759", title: "Cryptography and Computer Security", ltp: "3-0-0", credits: 3, type: "DE", resources: "Cryptography and Network Security|Cryptography and Network Security Principles and Practice (6th Edition) (William Stallings) (Z-Library).pdf" },
         { code: "CSR310", title: "Professional Practices (CS)", ltp: "3-0-0", credits: 3, type: "DC", resources: "Course notes|Course notes" },
         { code: "CSV884", title: "Special Module in Artificial Intelligence", ltp: "1-0-0", credits: 1, type: "OE", resources: "Course notes|Course notes" }
     ],
     "8th Semester (Year 4)": [
         { code: "COD494", title: "B.Tech. Project Part-II", ltp: "0-0-16", credits: 8, type: "DC", resources: "Project documentation|Project documentation" },
-        { code: "CSL772", title: "Natural Language Processing", ltp: "3-0-2", credits: 4, type: "DE", resources: "Speech and Language Processing|./8th shem/Speech and Language Processing (3rd ed. draft) (Dan Jurafsky and James H. Martin) (Z-Library).pdf" },
+        { code: "CSL772", title: "Natural Language Processing", ltp: "3-0-2", credits: 4, type: "DE", resources: "Speech and Language Processing|Speech and Language Processing (3rd ed. draft) (Dan Jurafsky and James H. Martin) (Z-Library).pdf" },
         { code: "CSL781", title: "Computer Graphics", ltp: "3-0-0", credits: 3, type: "DE", resources: "Course notes|Course notes" },
         { code: "CSV890", title: "Special Module on Visual Computing", ltp: "1-0-0", credits: 1, type: "OE", resources: "Course notes|Course notes" },
         { code: "SIV864", title: "Special Module on Media Processing & Communication", ltp: "1-0-0", credits: 1, type: "OE", resources: "Course notes|Course notes" }
