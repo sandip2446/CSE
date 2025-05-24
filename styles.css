@@ -529,29 +529,41 @@ header h1 i {
 }
 
 .resource-link {
-    display: inline-flex;
+    display: flex;
     align-items: center;
-    gap: 0.5rem;
-    padding: 0.6rem 1.2rem;
-    background: var(--primary-color);
-    color: white;
-    border: none;
-    border-radius: 6px;
-    font-size: 0.95rem;
-    font-weight: 500;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    white-space: nowrap;
+    justify-content: space-between;
+    gap: 8px;
+    color: var(--text-color);
     text-decoration: none;
-    pointer-events: auto;
+    padding: 12px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    background: rgba(var(--primary-color-rgb), 0.05);
+    border: 1px solid rgba(var(--primary-color-rgb), 0.1);
 }
 
 .resource-link:hover {
-    background: var(--primary-color-dark);
+    background: rgba(var(--primary-color-rgb), 0.1);
+    color: var(--primary-color);
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(var(--primary-color-rgb), 0.3);
-    color: white;
-    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(var(--primary-color-rgb), 0.2);
+}
+
+.resource-link i {
+    color: var(--primary-color);
+}
+
+.resource-action {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.9em;
+    color: var(--primary-color);
+    opacity: 0.8;
+}
+
+.resource-link:hover .resource-action {
+    opacity: 1;
 }
 
 .open-file-btn {
