@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B.Tech CSE Course Management</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Add PDF.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+</head>
+
+<body>
+    <div class="animated-background">
+        <i class="floating-icon fas fa-code" style="left: 5%; top: 10%; animation-delay: 0s;"></i>
+        <i class="floating-icon fas fa-database" style="left: 85%; top: 20%; animation-delay: 2s;"></i>
+        <i class="floating-icon fas fa-microchip" style="left: 15%; top: 80%; animation-delay: 4s;"></i>
+        <i class="floating-icon fas fa-network-wired" style="left: 75%; top: 60%; animation-delay: 6s;"></i>
+        <i class="floating-icon fas fa-laptop-code" style="left: 45%; top: 30%; animation-delay: 8s;"></i>
+        <i class="floating-icon fas fa-server" style="left: 25%; top: 50%; animation-delay: 10s;"></i>
+        <i class="floating-icon fas fa-brain" style="left: 65%; top: 15%; animation-delay: 12s;"></i>
+        <i class="floating-icon fas fa-cogs" style="left: 35%; top: 70%; animation-delay: 14s;"></i>
+        <i class="floating-icon fas fa-terminal" style="left: 90%; top: 40%; animation-delay: 16s;"></i>
+        <i class="floating-icon fas fa-memory" style="left: 10%; top: 25%; animation-delay: 18s;"></i>
+        <i class="floating-icon fas fa-microchip" style="left: 80%; top: 75%; animation-delay: 20s;"></i>
+        <i class="floating-icon fas fa-code-branch" style="left: 50%; top: 85%; animation-delay: 22s;"></i>
+        <i class="floating-icon fas fa-shield-alt" style="left: 20%; top: 35%; animation-delay: 24s;"></i>
+        <i class="floating-icon fas fa-cloud" style="left: 70%; top: 45%; animation-delay: 26s;"></i>
+        <i class="floating-icon fas fa-robot" style="left: 40%; top: 55%; animation-delay: 28s;"></i>
+        <i class="floating-icon fas fa-keyboard" style="left: 60%; top: 65%; animation-delay: 30s;"></i>
+        <i class="floating-icon fas fa-bug" style="left: 30%; top: 90%; animation-delay: 32s;"></i>
+        <i class="floating-icon fas fa-code" style="left: 95%; top: 5%; animation-delay: 34s;"></i>
+    </div>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-graduation-cap"></i> B.Tech Computer Science & Engineering</h1>
+            <p class="subtitle">Course Management System</p>
+            <div class="header-controls">
+                <button class="control-btn" id="darkModeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="control-btn" id="summaryToggle">
+                    <i class="fas fa-chart-pie"></i>
+                </button>
+            </div>
+        </header>
+
+        <div class="search-container">
+            <div class="search-box">
+                <i class="fas fa-search search-icon"></i>
+                <input type="text" id="searchInput" placeholder="Search courses...">
+            </div>
+            <select id="typeFilter">
+                <option value="all">All Course Types</option>
+                <option value="dc">Department Core</option>
+                <option value="bs">Basic Science</option>
+                <option value="eas">Engineering Arts & Science</option>
+                <option value="hss">Humanities & Social Sciences</option>
+                <option value="de">Department Elective</option>
+                <option value="oe">Open Elective</option>
+            </select>
+        </div>
+
+        <div class="semester-grid" id="semesterGrid">
+            <!-- Semester cards will be dynamically added here -->
+        </div>
+
+        <!-- Course Modal -->
+        <div class="course-modal" id="courseModal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 id="modalSemesterTitle"></h2>
+                    <div class="total-credits">
+                        <i class="fas fa-star"></i> <span id="modalTotalCredits">0</span> Credits
+                    </div>
+                    <button class="close-btn" id="closeCourseModal">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <div class="modal-body" id="modalCoursesContainer">
+                    <!-- Course cards will be dynamically added here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Course Card Template -->
+        <template id="courseCardTemplate">
+            <div class="course-card">
+                <div class="course-header">
+                    <h3 class="course-code"></h3>
+                    <span class="course-type"></span>
+                </div>
+                <h4 class="course-title"></h4>
+                <div class="course-info">
+                    <p class="course-ltp"></p>
+                    <p class="course-credits"></p>
+                </div>
+                <div class="course-resources">
+                    <h5><i class="fas fa-book"></i> Course Resources</h5>
+                    <div class="resources-list"></div>
+                </div>
+            </div>
+        </template>
+
+        <div class="summary-modal" id="summaryModal">
+            <div class="summary-content">
+                <div class="course-header">
+                    <h2><i class="fas fa-chart-bar"></i> Course Summary</h2>
+                    <button class="close-btn" id="closeSummary">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <div class="summary-stats">
+                    <div class="stat-card">
+                        <i class="fas fa-book-open fa-2x"></i>
+                        <h3>Total Courses</h3>
+                        <p id="totalCourses">0</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-star fa-2x"></i>
+                        <h3>Total Credits</h3>
+                        <p id="totalCreditsSummary">0</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-clock fa-2x"></i>
+                        <h3>Average Credits/Semester</h3>
+                        <p id="avgCredits">0</p>
+                    </div>
+                </div>
+                <div class="course-type-stats" id="courseTypeStats">
+                    <!-- Course type statistics will be added here -->
+                </div>
+            </div>
+        </div>
+
+        <button class="back-to-top" id="backToTop">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
