@@ -1,62 +1,62 @@
 // Course data structure
 const courseData = {
     "1st Semester (Year 1)": [
-        { code: "COL100", title: "Introduction to Computer Science", ltp: "3-0-2", credits: 4, type: "DC", resources: "The C Programming Language (Brian W. Kernighan)|https://drive.google.com/file/d/1WxViR5MFY-dLm8RACPWhJsAClrUbaEMA/view?usp=drive_link; Computer Science An Overview (Glenn Brookshear)|https://drive.google.com/file/d/1BySty0IKqU1GNoqTrTvJgXBYxZeTJUk-/view?usp=drive_link; Python Programming An Introduction to Computer Science (John M. Zelle)|https://drive.google.com/file/d/1DYCmI-QhRVwH93elNSMIUgX1n67vdSNK/view?usp=drive_link" },
-        { code: "CYL110", title: "Physical Chemistry: Concepts and Applications", ltp: "3-1-0", credits: 4, type: "BS", resources: "Atkins physical chemistry 11th edition 2019 (Atkins Peter)|https://drive.google.com/file/d/1mmkGeLMuA7mVKPobv1dJanLHDK8wyKl2/view?usp=drive_link" },
-        { code: "CYP100", title: "Chemistry Laboratory", ltp: "0-0-4", credits: 2, type: "BS", resources: "Chemistry The Central Science Value Pack|https://drive.google.com/file/d/1bEi37eGiORcz61D_fQ4kmHFJxbmAmFri/view?usp=drive_link" },
-        { code: "MAL111", title: "Introduction to Analysis and Differential Equations", ltp: "3-1-0", credits: 4, type: "BS", resources: "Thomas Calculus 13th Edition (George B. Thomas)|https://drive.google.com/file/d/1o8E7oSqqi6mEPMHEWkWdwH80ZA1Vd8U6/view?usp=drive_link" },
-        { code: "AML110", title: "Engineering Mechanics", ltp: "3-0-2", credits: 4, type: "EAS", resources: "Engineering Mechanics Dynamics 9th Edition (Meriam, Kraige, Bolton)|https://drive.google.com/file/d/1iZ2l8lePO5SyTraZ3lF5Z8RjnKsRwBT2/view?usp=drive_link" },
-        { code: "HUN100", title: "Introduction to Humanities & Social Sciences", ltp: "2-0-0", credits: 2, type: "HSS", resources: "Course notes|Course notes" }
+        { code: "COL100", title: "Introduction to Computer Science", ltp: "3-0-2", credits: 4, type: "DC", resources: "The C Programming Language|https://drive.google.com/file/d/1iZ2l8lePO5SyTraZ3lF5Z8RjnKsRwBT2/view?usp=drive_link; Computer Science An Overview|https://drive.google.com/file/d/1WxViR5MFY-dLm8RACPWhJsAClrUbaEMA/view?usp=drive_link; Python Programming An Introduction to Computer Science|https://drive.google.com/file/d/1bEi37eGiORcz61D_fQ4kmHFJxbmAmFri/view?usp=drive_link" },
+        { code: "CYL110", title: "Physical Chemistry: Concepts and Applications", ltp: "3-1-0", credits: 4, type: "BS", resources: "Physical Chemistry by Atkins|https://drive.google.com/open?id=1mmkGeLMuA7mVKPobv1dJanLHDK8wyKl2&usp=drive_copy" },
+        { code: "CYP100", title: "Chemistry Laboratory", ltp: "0-0-4", credits: 2, type: "BS", resources: "Chemistry The Central Science Value Pack|https://drive.google.com/open?id=1bEi37eGiORcz61D_fQ4kmHFJxbmAmFri&usp=drive_copy" },
+        { code: "MAL111", title: "Introduction to Analysis and Differential Equations", ltp: "3-1-0", credits: 4, type: "BS", resources: "Calculus by Thomas|https://drive.google.com/file/d/1BWuNPFyyYHGBO5Ep80N7pL0O_YTMYpUw/view?usp=drive_link" },
+        { code: "AML110", title: "Engineering Mechanics", ltp: "3-0-2", credits: 4, type: "EAS", resources: "Engineering Mechanics by Meriam & Kraige|https://drive.google.com/file/d/1BySty0IKqU1GNoqTrTvJgXBYxZeTJUk-/view?usp=drive_link" },
+        { code: "HUN100", title: "Introduction to Humanities & Social Sciences", ltp: "2-0-0", credits: 2, type: "HSS", resources: "Course notes|Course notes; MIT OpenCourseWare HSS|MIT OpenCourseWare HSS" }
     ],
     "2nd Semester (Year 1)": [
-        { code: "COL106", title: "Data Structures & Algorithms", ltp: "3-0-4", credits: 5, type: "DC", resources: "INTRODUCTION TO ALGORITHMS THIRD EDITION|https://drive.google.com/open?id=1N0goDYcKbR5Uqpp-MhkaaU8zdxiKF-b9&usp=drive_copy" },
-        { code: "MAL124", title: "Introduction to Algebra and Matrix Analysis", ltp: "3-1-0", credits: 4, type: "BS", resources: "Linear Algebra and Its Applications|https://drive.google.com/open?id=1iY02rPq4V3aVxrI0URtXiiVtLTzVSD2x&usp=drive_copy" },
-        { code: "PHL110", title: "Fields and Waves", ltp: "3-1-0", credits: 4, type: "BS", resources: "Fundamentals of Physics|https://drive.google.com/open?id=1kS28O7u9XH0cOk11TkXbtEguzcFUQ4Uu&usp=drive_copy" },
-        { code: "PHP100", title: "Physics Laboratory", ltp: "0-0-4", credits: 2, type: "BS", resources: "Course notes|Course notes" },
-        { code: "EEL101", title: "Fundamentals of Electrical Engineering", ltp: "3-0-2", credits: 4, type: "EAS", resources: "Basic Electrical Engineering|https://drive.google.com/open?id=1Xm_dpMiCqKdkaVANbLRyZDSuZ6KVWAb6&usp=drive_copy" },
-        { code: "MEL110", title: "Graphic Science", ltp: "2-0-4", credits: 4, type: "EAS", resources: "Course notes|Course notes" }
+        { code: "COL106", title: "Data Structures & Algorithms", ltp: "3-0-4", credits: 5, type: "DC", resources: "Data Structures and Algorithms in C++ by Weiss|" },
+        { code: "MAL124", title: "Introduction to Algebra and Matrix Analysis", ltp: "3-1-0", credits: 4, type: "BS", resources: "Linear Algebra and Its Applications by Strang|https://drive.google.com/file/d/1Xm_dpMiCqKdkaVANbLRyZDSuZ6KVWAb6/view?usp=drive_link" },
+        { code: "PHL110", title: "Fields and Waves", ltp: "3-1-0", credits: 4, type: "BS", resources: "Fundamentals of Physics by Halliday, Resnick, Walker|https://drive.google.com/file/d/1iY02rPq4V3aVxrI0URtXiiVtLTzVSD2x/view?usp=drive_link" },
+        { code: "PHP100", title: "Physics Laboratory", ltp: "0-0-4", credits: 2, type: "BS", resources: "Virtual Labs (IIT Delhi or Amrita University)|Virtual Labs (IIT Delhi or Amrita University)" },
+        { code: "EEL101", title: "Fundamentals of Electrical Engineering", ltp: "3-0-2", credits: 4, type: "EAS", resources: "Basic Electrical Engineering by Nagrath & Kothari|https://drive.google.com/file/d/1N0goDYcKbR5Uqpp-MhkaaU8zdxiKF-b9/view?usp=drive_link" },
+        { code: "MEL110", title: "Graphic Science", ltp: "2-0-4", credits: 4, type: "EAS", resources: "Engineering Drawing by Bhatt|Engineering Drawing by Bhatt" }
     ],
     "3rd Semester (Year 2)": [
-        { code: "COL202", title: "Discrete Mathematical Structures", ltp: "3-1-0", credits: 4, type: "DC", resources: "Discrete Mathematics and Its Applications|https://drive.google.com/open?id=1Y7gWILFHWGu3HKLc-GI3dQ7qZTrpA2uf&usp=drive_copy" },
-        { code: "COL215", title: "Digital Logic & System Design", ltp: "3-0-4", credits: 5, type: "DC", resources: "Digital Design Global Edition|https://drive.google.com/open?id=1sIZb5qV8zp5uNU8g37JVC4FsWlsl6kDH&usp=drive_copy" },
-        { code: "MEL120", title: "Manufacturing Practices", ltp: "2-0-4", credits: 4, type: "EAS", resources: "Manufacturing Processes for Engineering Materials|https://drive.google.com/open?id=1Uxxk-FQGfeuaP6psyj0WciawYFF_sxsc&usp=drive_copy" },
-        { code: "PHL120", title: "Physics of Materials", ltp: "3-1-0", credits: 4, type: "BS", resources: "Introduction To Solid State Physics|https://drive.google.com/open?id=16nlEE-vJi8VpBzOa_-M8dm9J1AyrwrK7&usp=drive_copy" },
-        { code: "HSS Elective", title: "Humanities Elective", ltp: "3-0-0", credits: 3, type: "HSS", resources: "Course notes|Course notes" }
+        { code: "COL202", title: "Discrete Mathematical Structures", ltp: "3-1-0", credits: 4, type: "DC", resources: "Discrete Mathematics and Its Applications by Rosen|https://drive.google.com/file/d/1sIZb5qV8zp5uNU8g37JVC4FsWlsl6kDH/view?usp=drive_link" },
+        { code: "COL215", title: "Digital Logic & System Design", ltp: "3-0-4", credits: 5, type: "DC", resources: "Digital Design by Mano & Ciletti|https://drive.google.com/file/d/1Y7gWILFHWGu3HKLc-GI3dQ7qZTrpA2uf/view?usp=drive_link" },
+        { code: "MEL120", title: "Manufacturing Practices", ltp: "2-0-4", credits: 4, type: "EAS", resources: "Manufacturing Processes by Kalpakjian|https://drive.google.com/file/d/16nlEE-vJi8VpBzOa_-M8dm9J1AyrwrK7/view?usp=drive_link" },
+        { code: "PHL120", title: "Physics of Materials", ltp: "3-1-0", credits: 4, type: "BS", resources: "Introduction to Solid State Physics by Kittel|https://drive.google.com/file/d/1Uxxk-FQGfeuaP6psyj0WciawYFF_sxsc/view?usp=drive_link" },
+        { code: "HSS Elective", title: "Humanities Elective", ltp: "3-0-0", credits: 3, type: "HSS", resources: "Course-specific texts (IIT Delhi HSS list)|Course-specific texts (IIT Delhi HSS list)" }
     ],
     "4th Semester (Year 2)": [
-        { code: "COL226", title: "Programming Languages", ltp: "3-0-4", credits: 5, type: "DC", resources: "Programming Language Pragmatics|https://drive.google.com/open?id=10mkmbQvR_WzCe3gE1C6jZ4UzS6xCAr8j&usp=drive_copy" },
-        { code: "COL216", title: "Computer Architecture", ltp: "3-0-2", credits: 4, type: "DC", resources: "Computer Organization and Architecture|https://drive.google.com/open?id=1VoxQgOzSPzsguTNtV0uanEE-pUqH1dul&usp=drive_copy" },
-        { code: "COL351", title: "Analysis and Design of Algorithms", ltp: "3-1-0", credits: 4, type: "DC", resources: "INTRODUCTION TO ALGORITHMS THIRD EDITION|https://drive.google.com/open?id=1_cxQphsQdeDtnYqYdPNuXR5m-DBcCUlc&usp=drive_copy" },
-        { code: "HSS Elective", title: "Humanities Elective", ltp: "3-0-0", credits: 3, type: "HSS", resources: "Course notes|Course notes" },
-        { code: "MTL106", title: "Probability & Statistics", ltp: "3-0-0", credits: 3, type: "OE", resources: "Probability and statistics|https://drive.google.com/open?id=1HrMub-TxDUkOfapJ1Nl-xcnzUaqpahKV&usp=drive_copy" }
+        { code: "COL226", title: "Programming Languages", ltp: "3-0-4", credits: 5, type: "DC", resources: "Programming Language Pragmatics by Scott|https://drive.google.com/file/d/1HrMub-TxDUkOfapJ1Nl-xcnzUaqpahKV/view?usp=drive_link" },
+        { code: "COL216", title: "Computer Architecture", ltp: "3-0-2", credits: 4, type: "DC", resources: "Computer Organization and Architecture by Stallings|https://drive.google.com/file/d/10mkmbQvR_WzCe3gE1C6jZ4UzS6xCAr8j/view?usp=drive_link" },
+        { code: "COL351", title: "Analysis and Design of Algorithms", ltp: "3-1-0", credits: 4, type: "DC", resources: "Introduction to Algorithms by Cormen et al.|https://drive.google.com/file/d/1VoxQgOzSPzsguTNtV0uanEE-pUqH1dul/view?usp=drive_link" },
+        { code: "HSS Elective", title: "Humanities Elective", ltp: "3-0-0", credits: 3, type: "HSS", resources: "Course-specific texts|Course-specific texts" },
+        { code: "MTL106", title: "Probability & Statistics", ltp: "3-0-0", credits: 3, type: "OE", resources: "Probability and Statistics by DeGroot|https://drive.google.com/file/d/1_cxQphsQdeDtnYqYdPNuXR5m-DBcCUlc/view?usp=drive_link" }
     ],
     "5th Semester (Year 3)": [
-        { code: "COL331", title: "Operating Systems", ltp: "3-0-4", credits: 5, type: "DC", resources: "Operating System Concepts|https://drive.google.com/open?id=123qbyfG7zwDmiHShV5Hiqre5J06fBP2h&usp=drive_copy" },
-        { code: "COL362", title: "Introduction to Database Management Systems", ltp: "3-0-2", credits: 4, type: "DC", resources: "Database System Concepts|https://drive.google.com/open?id=1NJ9XIl57pzjpg7T0VuDqPIQeR9XkkmK-&usp=drive_copy" },
+        { code: "COL331", title: "Operating Systems", ltp: "3-0-4", credits: 5, type: "DC", resources: "Operating System Concepts by Silberschatz, Galvin, Gagne|https://drive.google.com/file/d/1zvUkyQm6a-Sk-WuxEl-easHC-0QZtH0W/view?usp=drive_link" },
+        { code: "COL362", title: "Introduction to Database Management Systems", ltp: "3-0-2", credits: 4, type: "DC", resources: "Database System Concepts by Silberschatz, Korth, Sudarshan|https://drive.google.com/file/d/1NJ9XIl57pzjpg7T0VuDqPIQeR9XkkmK-/view?usp=drive_link" },
         { code: "COP290", title: "Design Practices", ltp: "0-0-6", credits: 3, type: "DC", resources: "Project documentation|Project documentation" },
-        { code: "CSL341", title: "Fundamentals of Machine Learning", ltp: "3-0-2", credits: 4, type: "DE", resources: "Pattern Recognition and Machine Learning|https://drive.google.com/open?id=1zvUkyQm6a-Sk-WuxEl-easHC-0QZtH0W&usp=drive_copy" },
-        { code: "SIL765", title: "Networks & System Security", ltp: "3-0-2", credits: 4, type: "OE", resources: "Cryptography and Network Security|https://drive.google.com/open?id=1Q6hh54kfyGCoGbue9p0DnlC8r3riKTFQ&usp=drive_copy" }
+        { code: "CSL341", title: "Fundamentals of Machine Learning", ltp: "3-0-2", credits: 4, type: "DE", resources: "Pattern Recognition and Machine Learning by Bishop|https://drive.google.com/file/d/1Q6hh54kfyGCoGbue9p0DnlC8r3riKTFQ/view?usp=drive_link" },
+        { code: "SIL765", title: "Networks & System Security", ltp: "3-0-2", credits: 4, type: "OE", resources: "Cryptography and Network Security by Stallings|https://drive.google.com/file/d/123qbyfG7zwDmiHShV5Hiqre5J06fBP2h/view?usp=drive_link" }
     ],
     "6th Semester (Year 3)": [
-        { code: "COL352", title: "Introduction to Automata & Theory of Computation", ltp: "3-0-0", credits: 3, type: "DC", resources: "Introduction to the Theory of Computation|https://drive.google.com/open?id=17vUH-0181qC_zXMIZ21UriYW6675SC1F&usp=drive_copy" },
-        { code: "COL334", title: "Computer Networks", ltp: "3-0-2", credits: 4, type: "DC", resources: "Computer Networking A Top-Down Approach|https://drive.google.com/open?id=1dqXQaX8qpGoQW_2np-z_Ns5E1Vace9Q5&usp=drive_copy" },
-        { code: "CSL740", title: "Software Engineering", ltp: "3-0-2", credits: 4, type: "DE", resources: "Software engineering|https://drive.google.com/open?id=1Eku0t5a2C_tH85unTQ2Br94rVXRlwc5F&usp=drive_copy" },
-        { code: "CSL730", title: "Parallel Programming", ltp: "3-0-2", credits: 4, type: "DE", resources: "Parallel Programming in C with MPI and OpenMP|https://drive.google.com/open?id=1HMDooHV-FycgfNLxNxxCyJkKgxQz8ZAy&usp=drive_copy" },
-        { code: "CSV883", title: "Special Module in Theoretical Computer Science", ltp: "1-0-0", credits: 1, type: "OE", resources: "Course notes|Course notes" }
+        { code: "COL352", title: "Introduction to Automata & Theory of Computation", ltp: "3-0-0", credits: 3, type: "DC", resources: "Introduction to the Theory of Computation by Sipser|https://drive.google.com/file/d/1dqXQaX8qpGoQW_2np-z_Ns5E1Vace9Q5/view?usp=drive_link" },
+        { code: "COL334", title: "Computer Networks", ltp: "3-0-2", credits: 4, type: "DC", resources: "Computer Networking: A Top-Down Approach by Kurose & Ross|https://drive.google.com/file/d/17vUH-0181qC_zXMIZ21UriYW6675SC1F/view?usp=drive_link" },
+        { code: "CSL740", title: "Software Engineering", ltp: "3-0-2", credits: 4, type: "DE", resources: "Software Engineering by Sommerville|https://drive.google.com/file/d/1HMDooHV-FycgfNLxNxxCyJkKgxQz8ZAy/view?usp=drive_link" },
+        { code: "CSL730", title: "Parallel Programming", ltp: "3-0-2", credits: 4, type: "DE", resources: "Parallel Programming in C with MPI and OpenMP by Quinn|https://drive.google.com/file/d/1Eku0t5a2C_tH85unTQ2Br94rVXRlwc5F/view?usp=drive_link" },
+        { code: "CSV883", title: "Special Module in Theoretical Computer Science", ltp: "1-0-0", credits: 1, type: "OE", resources: "Research papers; instructor-specific notes|Research papers; instructor-specific notes" }
     ],
     "7th Semester (Year 4)": [
-        { code: "COD492", title: "B.Tech. Project Part-I", ltp: "0-0-12", credits: 6, type: "DC", resources: "Project documentation|Project documentation" },
-        { code: "CSL771", title: "Machine Learning", ltp: "3-0-2", credits: 4, type: "DE", resources: "Machine Learning|https://drive.google.com/open?id=1kS28O7u9XH0cOk11TkXbtEguzcFUQ4Uu&usp=drive_copy" },
-        { code: "CSL759", title: "Cryptography and Computer Security", ltp: "3-0-0", credits: 3, type: "DE", resources: "Cryptography and Network Security|./5th shem/Cryptography and Network Security Principles and Practice (6th Edition) (William Stallings) (Z-Library).pdf" },
-        { code: "CSR310", title: "Professional Practices (CS)", ltp: "3-0-0", credits: 3, type: "DC", resources: "Course notes|Course notes" },
-        { code: "CSV884", title: "Special Module in Artificial Intelligence", ltp: "1-0-0", credits: 1, type: "OE", resources: "Course notes|Course notes" }
+        { code: "COD492", title: "B.Tech. Project Part-I", ltp: "0-0-12", credits: 6, type: "DC", resources: "Research papers; GitHub for implementation|Research papers; GitHub for implementation" },
+        { code: "CSL771", title: "Machine Learning", ltp: "3-0-2", credits: 4, type: "DE", resources: "Machine Learning by Mitchell|https://drive.google.com/file/d/1kS28O7u9XH0cOk11TkXbtEguzcFUQ4Uu/view?usp=drive_link" },
+        { code: "CSL759", title: "Cryptography and Computer Security", ltp: "3-0-0", credits: 3, type: "DE", resources: "Cryptography and Network Security by Stallings|https://drive.google.com/file/d/123qbyfG7zwDmiHShV5Hiqre5J06fBP2h/view?usp=drive_link" },
+        { code: "CSR310", title: "Professional Practices (CS)", ltp: "3-0-0", credits: 3, type: "DC", resources: "Industry talks; online webinars (e.g., IEEE)|Industry talks; online webinars (e.g., IEEE)" },
+        { code: "CSV884", title: "Special Module in Artificial Intelligence", ltp: "1-0-0", credits: 1, type: "OE", resources: "AI research papers; ArXiv|AI research papers; ArXiv" }
     ],
     "8th Semester (Year 4)": [
-        { code: "COD494", title: "B.Tech. Project Part-II", ltp: "0-0-16", credits: 8, type: "DC", resources: "Project documentation|Project documentation" },
-        { code: "CSL772", title: "Natural Language Processing", ltp: "3-0-2", credits: 4, type: "DE", resources: "Speech and Language Processing|https://drive.google.com/open?id=1G8D80bGb8aSCg3Ta2c52pzCdNf0gbixa&usp=drive_copy" },
+        { code: "COD494", title: "B.Tech. Project Part-II", ltp: "0-0-16", credits: 8, type: "DC", resources: "Research papers; TensorFlow, Django for projects|Research papers; TensorFlow, Django for projects" },
+        { code: "CSL772", title: "Natural Language Processing", ltp: "3-0-2", credits: 4, type: "DE", resources: "Speech and Language Processing by Jurafsky & Martin|https://drive.google.com/file/d/1G8D80bGb8aSCg3Ta2c52pzCdNf0gbixa/view?usp=drive_link" },
         { code: "CSL781", title: "Computer Graphics", ltp: "3-0-0", credits: 3, type: "DE", resources: "Course notes|Course notes" },
-        { code: "CSV890", title: "Special Module on Visual Computing", ltp: "1-0-0", credits: 1, type: "OE", resources: "Course notes|Course notes" },
-        { code: "SIV864", title: "Special Module on Media Processing & Communication", ltp: "1-0-0", credits: 1, type: "OE", resources: "Course notes|Course notes" }
+        { code: "CSV890", title: "Special Module on Visual Computing", ltp: "1-0-0", credits: 1, type: "OE", resources: "Research papers; OpenGL tutorials|Research papers; OpenGL tutorials" },
+        { code: "SIV864", title: "Special Module on Media Processing & Communication", ltp: "1-0-0", credits: 1, type: "OE", resources: "Multimedia processing tutorials; research papers|Multimedia processing tutorials; research papers" }
     ]
 };
 
@@ -65,7 +65,7 @@ const TYPE_ICONS = {
     'dc': 'fa-lightbulb',
     'bs': 'fa-atom',
     'eas': 'fa-microscope',
-    'hSS': 'fa-users',
+    'hss': 'fa-users',
     'de': 'fa-book',
     'oe': 'fa-bookmark'
 };
@@ -195,22 +195,30 @@ class CourseManager {
         const resources = course.resources.split(';').map(resource => resource.trim());
         
         resources.forEach(resource => {
-            const [title, url] = resource.split('|');
+            const parts = resource.split('|');
+            const title = parts[0] || 'Resource';
+            const url = parts[1] || '';
+            
             const resourceItem = document.createElement('div');
             resourceItem.className = 'resource-item';
             
-            if (url.startsWith('http')) {
-                // Handle Google Drive links
+            if (url && url.startsWith('http')) {
+                // Handle Google Drive links with title and view action
                 resourceItem.innerHTML = `
-                    <a href="${url}" target="_blank" class="resource-link">
-                        <i class="fas fa-book"></i> ${title}
-                        <span class="resource-action">
+                    <a href="${url}" target="_blank" class="resource-content">
+                        <div class="resource-info">
+                            <i class="fas fa-book"></i>
+                            <div class="resource-text">
+                                <p class="resource-name">${title}</p>
+                            </div>
+                        </div>
+                        <div class="resource-actions">
                             <i class="fas fa-external-link-alt"></i> View
-                        </span>
+                        </div>
                     </a>
                 `;
             } else {
-                // Handle local resources
+                // Handle local resources with title only
                 resourceItem.innerHTML = `
                     <span class="resource-text">
                         <i class="fas fa-file-alt"></i> ${title}
