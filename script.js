@@ -9,7 +9,7 @@ const courseData = {
         { code: "HUN100", title: "Introduction to Humanities & Social Sciences", ltp: "2-0-0", credits: 2, type: "HSS", resources: "Course notes|Course notes; MIT OpenCourseWare HSS|MIT OpenCourseWare HSS" }
     ],
     "2nd Semester (Year 1)": [
-        { code: "COL106", title: "Data Structures & Algorithms", ltp: "3-0-4", credits: 5, type: "DC", resources: "Data Structures and Algorithms in C++ by Weiss|" },
+        { code: "COL106", title: "Data Structures & Algorithms", ltp: "3-0-4", credits: 5, type: "DC", resources: "Data Structures and Algorithms in C++ by Weiss|https://drive.google.com/file/d/1Zhszb7R0_vl27J-Ea4FF1gALnqW36mhW/view?usp=sharing" },
         { code: "MAL124", title: "Introduction to Algebra and Matrix Analysis", ltp: "3-1-0", credits: 4, type: "BS", resources: "Linear Algebra and Its Applications by Strang|https://drive.google.com/file/d/1Xm_dpMiCqKdkaVANbLRyZDSuZ6KVWAb6/view?usp=drive_link" },
         { code: "PHL110", title: "Fields and Waves", ltp: "3-1-0", credits: 4, type: "BS", resources: "Fundamentals of Physics by Halliday, Resnick, Walker|https://drive.google.com/file/d/1iY02rPq4V3aVxrI0URtXiiVtLTzVSD2x/view?usp=drive_link" },
         { code: "PHP100", title: "Physics Laboratory", ltp: "0-0-4", credits: 2, type: "BS", resources: "Virtual Labs (IIT Delhi or Amrita University)|Virtual Labs (IIT Delhi or Amrita University)" },
