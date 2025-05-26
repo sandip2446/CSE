@@ -14,7 +14,7 @@ const courseData = {
         { code: "PHL110", title: "Fields and Waves", ltp: "3-1-0", credits: 4, type: "BS", resources: "Fundamentals of Physics by Halliday, Resnick, Walker|https://drive.google.com/file/d/1iY02rPq4V3aVxrI0URtXiiVtLTzVSD2x/view?usp=drive_link" },
         { code: "PHP100", title: "Physics Laboratory", ltp: "0-0-4", credits: 2, type: "BS", resources: "Virtual Labs (IIT Delhi or Amrita University)|Virtual Labs (IIT Delhi or Amrita University)" },
         { code: "EEL101", title: "Fundamentals of Electrical Engineering", ltp: "3-0-2", credits: 4, type: "EAS", resources: "Basic Electrical Engineering by Nagrath & Kothari|https://drive.google.com/file/d/1N0goDYcKbR5Uqpp-MhkaaU8zdxiKF-b9/view?usp=drive_link" },
-        { code: "MEL110", title: "Graphic Science", ltp: "2-0-4", credits: 4, type: "EAS", resources: "Engineering Drawing by Bhatt|Engineering Drawing by Bhatt | https://drive.google.com/file/d/1pFNO_ZiY30uqND1w30jK7Gr8sXiBTyxU/view?usp=drive_link" }
+        { code: "MEL110", title: "Graphic Science", ltp: "2-0-4", credits: 4, type: "EAS", resources: "Engineering Drawing by Bhatt|https://drive.google.com/file/d/1pFNO_ZiY30uqND1w30jK7Gr8sXiBTyxU/view?usp=drive_link" }
     ],
     "3rd Semester (Year 2)": [
         { code: "COL202", title: "Discrete Mathematical Structures", ltp: "3-1-0", credits: 4, type: "DC", resources: "Discrete Mathematics and Its Applications by Rosen|https://drive.google.com/file/d/1sIZb5qV8zp5uNU8g37JVC4FsWlsl6kDH/view?usp=drive_link" },
